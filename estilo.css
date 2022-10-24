@@ -1,0 +1,126 @@
+* {
+	margin:0;
+	padding:0;
+}
+h1{
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+}
+
+h2{
+	font: bold 14px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body{
+	text-align: center;
+	background: url(imagenes/Plaza_Che,_Bogotá.jpg);
+	background-repeat: no-repeat; /* No se repita*/
+	background-size: cover; /* Imagen al 100% del ancho*/
+	background-attachment: fixed; /* Posicion fija para la imagen */
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+time{
+	color: #999;
+article footer{
+}
+	text-align: right;
+	margin-top: 20px;
+}
+img{
+	height: 200px;
+	display: block;
+	margin: 10px auto;
+}
+article address{
+	text-align: right;
+	margin-top: 20px;
+}
+.agrupar{
+
+	width: 1200px;
+	height: 650px;
+	margin: 15px auto;
+	border: 1px solid black;
+
+}
+
+.cabecera{
+	border: 1px solid black;
+	background: #69140A; 
+	padding: 20px;
+	height:68px; 
+}
+.cabecera h1{
+	text-align: left;
+
+}
+
+.seccion{
+
+	float: center;
+	border:1px solid black;
+}
+.seccion article{
+	display: inline-block;
+	padding: 3px;
+	width: 380px; 
+	height:480px; 
+	border:1px solid black;
+	background: #fffbcc;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+}
+
+.texto{
+	text-align: justify;
+	margin-right: 12px;
+	margin-left:  12px; 
+	font-size: 15px;	
+}
+
+.pie{
+	background: #2d3436; 
+	color: #ffffff;
+	height:40px; 
+}
+.menu{
+	text-align: left;
+}
+
+.menu li{
+	list-style: none;
+	font: bold 15px verdana;
+	display: inline-block;
+	font-family: 'Oswald', sans-serif;
+	padding-top: 2%;
+	padding-right: 2%;
+
+}
+.menu a{
+	color: #777777;
+	border-right: 1px solid black; 
+	padding-right: 25px;
+}
+.pie a{
+	color: #fff;
+}
+.columna1{
+	float:left;
+
+}
+.columna2{
+float:right;
+}
+#comentario{
+	margin-right: 12px;
+	font-size: 12px;
+}
+address{
+	margin-right: 12px;
+	font-size: 15px;
+}
