@@ -1,0 +1,173 @@
+* {
+	margin:0;
+	padding:0;
+}
+h1{
+	font-size: 30px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	color: black;
+
+}
+h2{
+	font: bold 14px;
+	color: black;
+}
+header,section,footer,aside,article{
+	display: block;
+}
+body{
+	text-align: center;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	background: #7a7672; 
+}
+a{
+	color: black;
+}
+
+.agrupar{
+	width: 100%;
+	margin: auto;
+	background-image: url(imagSB/fondoazulnegro.jpg);
+	background-repeat: no-repeat; /* No se repita*/
+	background-size: cover; /* Imagen al 100% del ancho*/
+	background-attachment: fixed; /* Posicion fija para la imagen */
+	background-position: top;	
+}
+.cabecera{
+	width: 100%;
+	background: #1dc46f; 
+	padding-top: 1%;
+	padding-left: 1%;
+	padding-bottom: 1%;
+}
+.cabecera h1{
+	text-align: left;
+}
+
+.menu{
+	width: 100%;
+	background:#cbbeb5; 
+	padding-top: 1%;
+	padding-left: 1%;
+	padding-bottom: 1%;
+	text-align: left;
+}
+.menu li{
+	list-style: none;
+	padding: 5px;
+	font: bold 14px verdana;
+	display: inline-block;
+	font-family: 'Oswald', sans-serif;
+}
+
+
+.Listaplazas li{ 
+	font-family: 'Oswald', sans-serif;
+	text-align: left;
+	margin-left: 5%;
+
+}
+.menu a{
+
+	border-right: 1px solid black; 
+	border-left: 1px solid black;
+	padding-right: 25px;
+	padding-left: 25px;	
+	color: black;
+}
+
+.menuplazas h1{
+	text-align: center;
+}
+
+hgroup{
+	background-repeat: no-repeat; /* No se repita*/
+	background-size: cover; /* Imagen al 100% del ancho*/
+	
+}
+
+.LaHamburguesa{
+	background-image: url(imgSB/Chazaviejo4.jpeg);
+	width: 100%;
+	height: 40%;
+	background-position:  center 50%;
+}
+.Empanadasviejo{
+	background-image: url(imgSB/Chazaviejo3.jpeg);
+	width: 100%;
+	height:40%;
+	background-position:  center 30%;
+}
+.LaViejagalgueria{
+	background-image: url(imgSB/ChazaViejo2.jpeg);
+	width: 100%;
+	height:40%;
+	background-position:  center 30%;
+}
+.GalgueriaVieja{
+	background-image: url(imgSB/ChazaViejo.jpeg);
+	width: 100%;
+	height:40%;
+	background-position: center 40%;
+}
+.ViejoIng{
+	background-image: url(imgSB/VIEJO.jpg);
+	width: 100%;
+	height:40%;
+	background-position:  center 70%;
+	border: 1px solid black; 
+}
+
+
+.Bloque1{
+	margin-bottom: 15px;
+	float:left;
+	width: 45%;
+	height:400px;
+	background: #132733;
+}
+.Bloque2{
+	margin-bottom: 15px;
+	float:right;
+	width: 45%; 
+	height:400px;
+	background: #132733;
+}
+blockquote h1{
+	background: #2d3436;
+	width: 42%;
+	margin-left: 30%;
+	margin-right: 30%;:
+
+}
+hgroup h1{
+	background: #2d3436;
+	margin-left: 30%;
+	margin-right: 30%;:
+}
+ul h2{
+	background:#1dc46f;
+}
+.columna{
+	margin: 20px;
+	width: 97%;
+	float: left;
+}
+.columna blockquote{
+	
+	margin-bottom: 20px;
+	border: 1px solid black; 
+}
+.pie{
+
+	clear: both;
+	background: #2d3436; 
+	color: #ffffff;
+}
+.pie p{
+	text-align: center;
+	padding: 2%;
+}

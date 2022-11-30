@@ -1,0 +1,268 @@
+* {
+	margin:0;
+	padding:0;
+}
+h1{
+	font-size: 30px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	color: black;
+
+}
+h2{
+	font: bold 14px;
+	color: black;
+}
+header,section,footer,aside,article{
+	display: block;
+}
+body{
+	text-align: center;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	background: #7a7672; 
+}
+.agrupar{
+	width: 100%;
+	margin: auto;
+	background-image: url(imagSB/fondoazulnegro.jpg);
+	background-repeat: no-repeat; /* No se repita*/
+	background-size: cover; /* Imagen al 100% del ancho*/
+	background-attachment: fixed; /* Posicion fija para la imagen */
+	background-position: top;	
+}
+.cabecera{
+	width: 100%;
+	background: #1dc46f; 
+	padding-top: 1%;
+	padding-left: 1%;
+	padding-bottom: 1%;
+}
+.cabecera h1{
+	text-align: left;
+}
+
+.menu{
+	width: 100%;
+	background:#cbbeb5; 
+	padding-top: 1%;
+	padding-left: 1%;
+	padding-bottom: 1%;
+	text-align: left;
+}
+.menu li{
+	list-style: none;
+	padding: 5px;
+	font: bold 14px verdana;
+	display: inline-block;
+	font-family: 'Oswald', sans-serif;
+}
+.menuplazas{
+	list-style: none;
+	font-family: 'Oswald', sans-serif;
+	text-align: left;
+	margin-left: 5%;
+
+}
+a{
+	color: black;
+}
+
+
+.ListViejo{
+	float: left;
+	width: 45%; 
+	height:150px;
+}
+.listAulas{
+	float: right;
+	width: 45%; 
+	height:150px;
+}
+
+.B1{
+	margin-bottom: 15px;
+	float:left;
+	width: 45%;
+	height:150px;
+		background: #132733;
+
+}
+.B2{
+	margin-bottom: 15px;
+	float:right;
+	width: 45%; 
+	height:150px;
+
+}
+.Listaplazas{
+	
+}
+.Listaplazas li{
+	float: left;
+	padding: 5px;
+	font: bold 14px verdana;
+	list-style: none;
+	font-family: 'Oswald', sans-serif;
+	background: #1dc46f; 
+
+}
+.menu a{
+
+	border-right: 1px solid black; 
+	border-left: 1px solid black;
+	padding-right: 25px;
+	padding-left: 25px;	
+}
+
+.seccion{
+	margin: 20px; 
+	width: 100%;
+	float: left;
+}
+.menuplazas h1{
+	text-align: center;
+}
+article{
+	width: 94%;
+	background: #00263b;
+	border: 1px solid black; 
+	padding: 20px;
+	margin-bottom: 15px;
+}
+
+
+article footer{
+	text-align: right;
+	margin-bottom: 10px;
+	margin-right:20px;
+}
+hgroup{
+	background-repeat: no-repeat; /* No se repita*/
+	background-size: cover; /* Imagen al 100% del ancho*/
+	
+}
+.Aulas{
+	background-image: url(imgSB/Aulas.jpg);
+	width: 100%;
+	height:80%;
+	background-position:  center 60%;	
+	border: 1px solid black; 
+}
+.Plazaché{
+	background-image: url(imgSB/Plaza_Che,_Bogotá.jpg);
+	width: 100%;
+	height:80%;
+	background-position:  center 80%;
+	border: 1px solid black; 
+}
+.Musica{
+	background-image: url(imgSB/CMusica.jpg);
+	width: 100%;
+	height:80%;
+	background-position:  center 70%;
+	border: 1px solid black; 
+}
+.FCE{
+	background-image: url(imgSB/CienciasE.jpg);
+	width: 100%;
+	height:80%;
+	background-position:  center 63%;
+	border: 1px solid black; 
+}
+.Viejo{
+	background-image: url(imgSB/FViejo.jpg);
+	width: 100%;
+	height:80%;
+	background-position: center 90%;
+	border: 1px solid black; 
+}
+.Yutakeuchi{
+	background-image: url(imgSB/Yutakeuchi.jpg);
+	width: 100%;
+	height:80%;
+	background-position:  center 62%;
+	border: 1px solid black; 
+}
+.Cyt{
+	background-image: url(imgSB/CyT.jpg);
+	width: 100%;
+	height:80%;
+	background-position:  center 60%;
+	border: 1px solid black; 
+}
+.Medicina{
+	background-image: url(imgSB/Fmedicina.jpg);
+	width: 100%;
+	height:80%;
+	background-position:  center 60%;
+	border: 1px solid black; 
+}
+.Polideportivo{
+	background-image: url(imgSB/polideportivo.jpg);
+	width: 100%;
+	height:80%;
+	background-position:  center 60%;
+	border: 1px solid black; 
+}
+.FH{
+	background-image: url(imgSB/FCH.jpg);
+	width: 100%;
+	height:80%;
+	background-position:  center 60%;
+	border: 1px solid black; 
+
+}
+
+.Bloque1{
+	margin-bottom: 15px;
+	float:left;
+	width: 45%;
+	height:200px;
+
+}
+.Bloque2{
+	margin-bottom: 15px;
+	float:right;
+	width: 45%; 
+	height:200px;
+}
+.columna{
+	margin: 20px;
+	width: 97%;
+	float: left;
+
+}
+.columna1{
+	margin: 20px;
+	width: 97%;
+	float: left;
+	background: #132733;
+}
+.columna1 li{
+	color: white;
+}
+
+.columna blockquote{
+	margin-bottom: 20px;
+}
+blockquote h1{
+	background: #2d3436;
+	width: 50%;
+	margin-left: 30%;
+	margin-right: 30%;
+	font-size: 150%;
+
+}
+.pie{
+
+	clear: both;
+	background: #2d3436; 
+	color: #ffffff;
+}
+.pie p{
+	text-align: center;
+	padding: 2%;
+}
+
